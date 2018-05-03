@@ -1,0 +1,30 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Authentication with Node.js and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "watch": "nodemon app && mongod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bl4ck4ndbr0wn/authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bl4ck4ndbr0wn/authentication/issues"
+  },
+  "homepage": "https://github.com/bl4ck4ndbr0wn/authentication#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.17",
+    "nodemon": "^1.17.3"
+  }
+}
