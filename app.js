@@ -4,9 +4,10 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
+const MongoClient = require('mongodb').MongoClient;
 
-//connect to MongoDB
-mongoose.connect('mongodb://localhost/testForAuth');
+//connect to MongoDB mongodb://localhost/testForAuth
+mongoose.connect('mongodb://alpha:Ak3Swal(@ds115420.mlab.com:15420/authentication');
 var db = mongoose.connection;
 
 //handle mongo error
@@ -53,6 +54,6 @@ app.use(function (err, req, res, next) {
 
 
 // listen on port 3000
-app.listen(process.env.PORT || 3000, function () {
-  console.log(`Express app listening on port ${process.env.PORT}`);
+app.listen(3000, function () {
+  console.log('Express app listening on port 300');
 });
