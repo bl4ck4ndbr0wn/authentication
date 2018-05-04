@@ -1,6 +1,9 @@
 # authentication
 Authentication with Node.js and MongoDB
 
+Authentication is an important issue when creating a dynamic web application.
+
+
 Structure
 The app will be structured in:
 
